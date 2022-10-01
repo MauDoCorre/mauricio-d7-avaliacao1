@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FOSQRpTUOluiNn8CiV99+S8Z0kn2H4nRrGQVP9QCiED75vv4ZzT32KqN56CiCEfX6aS+9WCwTCxpbfzOq8LMPQ==",
+  "dgSpecHash": "RlRPxJO3VwPv6GFaKA0qhVn3Eu6Dy6E53QsuurUYTXJUGMJzsVdpD7r+WdlhCzxeSrp/lVcdyg+NpzE23M6vOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\atividade_D7.csproj",
+  "projectFilePath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\atividade_D7.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauri\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.9\\microsoft.data.sqlite.core.6.0.9.nupkg.sha512",
     "C:\\Users\\mauri\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\atividade_D7.csproj": {}
+    "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\atividade_D7.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\atividade_D7.csproj": {
+    "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\atividade_D7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\atividade_D7.csproj",
+        "projectUniqueName": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\atividade_D7.csproj",
         "projectName": "atividade_D7",
-        "projectPath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\atividade_D7.csproj",
+        "projectPath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\atividade_D7.csproj",
         "packagesPath": "C:\\Users\\mauri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao\\obj\\",
+        "outputPath": "C:\\Users\\mauri\\cteds\\d7\\mauricio-d7-avaliacao1\\mauricio-d7-avaliacao\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
