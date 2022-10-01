@@ -1,0 +1,68 @@
+﻿<Window x:Class="atividade_D7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:atividade_D7"
+        mc:Ignorable="d"
+        Title="D7 - Avaliação" Height="660" Width="480">
+    <Grid Name="Login">
+
+        <Label FontSize="24" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Top" 
+               Margin="0 60 1 0" 
+               Grid.Row="0" Content="Autenticação de usuário"
+               FontWeight="Bold"
+               FontFamily="Inter"/>
+        <TextBox 
+            Text="{Binding Usuario}"
+            HorizontalAlignment="Center" 
+            Grid.Row="1" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"
+            Margin="0 180 0 0"
+            Width="360" 
+            Height="60" 
+            Background="#D9D9D9FF"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,145,0,0" 
+                   Grid.Row="1" 
+                   TextWrapping="Wrap" 
+                   Text="Usuário" 
+                   VerticalAlignment="Top" 
+                   FontSize="16"
+                   FontFamily="Inter"
+                   />
+        <TextBox 
+            Text="{Binding Senha}"
+            HorizontalAlignment="Center" 
+            Grid.Row="1" 
+            TextWrapping="Wrap"  
+            VerticalAlignment="Top"
+            Margin="0 360 0 0"
+            Width="360" 
+            Height="60" 
+            Background="#D9D9D9FF"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,325,0,0" 
+                   Grid.Row="2" 
+                   TextWrapping="Wrap" 
+                   Text="Senha" 
+                   VerticalAlignment="Top" 
+                   FontSize="16"
+                   FontFamily="Inter"
+                   />
+
+        <Button Content="Acessar" 
+                HorizontalAlignment="Center" 
+                Grid.Row="3" 
+                Width="240"
+                Height="60"
+                FontSize="16"
+                FontFamily="Inter"
+                VerticalAlignment="Bottom"
+                Margin="0 0 0 60" Click="Logar"/>
+
+
+
+    </Grid>
+</Window>
