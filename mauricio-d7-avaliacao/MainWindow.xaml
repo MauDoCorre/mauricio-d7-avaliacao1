@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:atividade_D7"
         mc:Ignorable="d"
         Title="D7 - Avaliação" Height="660" Width="480">
-    <Grid Name="Login">
+    <Grid x:Name="Login">
 
         <Label FontSize="24" 
                HorizontalAlignment="Center" 
@@ -17,14 +17,16 @@
                FontFamily="Inter"/>
         <TextBox 
             Text="{Binding Usuario}"
+            TextWrapping="Wrap"
+            FontSize="16"
+            FontFamily="Inter"
             HorizontalAlignment="Center" 
             Grid.Row="1" 
-            TextWrapping="Wrap"  
             VerticalAlignment="Top"
             Margin="0 180 0 0"
             Width="360" 
             Height="60" 
-            Background="#D9D9D9FF"/>
+            Background="#D9D9D9"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,145,0,0" 
                    Grid.Row="1" 
                    TextWrapping="Wrap" 
@@ -35,14 +37,16 @@
                    />
         <TextBox 
             Text="{Binding Senha}"
+            TextWrapping="Wrap"
+            FontSize="16"
+            FontFamily="Inter"
             HorizontalAlignment="Center" 
-            Grid.Row="1" 
-            TextWrapping="Wrap"  
+            Grid.Row="1"  
             VerticalAlignment="Top"
             Margin="0 360 0 0"
             Width="360" 
             Height="60" 
-            Background="#D9D9D9FF"/>
+            Background="#D9D9D9"/>
         <TextBlock HorizontalAlignment="Left" Margin="60,325,0,0" 
                    Grid.Row="2" 
                    TextWrapping="Wrap" 
@@ -60,7 +64,8 @@
                 FontSize="16"
                 FontFamily="Inter"
                 VerticalAlignment="Bottom"
-                Margin="0 0 0 60" Click="Logar"/>
+                Margin="0 0 0 60" Click="Logar"
+                Background="#D9D9D9"/>
 
 
 

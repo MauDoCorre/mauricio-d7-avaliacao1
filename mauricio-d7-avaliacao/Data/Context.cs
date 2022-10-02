@@ -23,11 +23,13 @@ public class Context : DbContext
 		{
 			new User
 			{
+				Id = 1,
 				Usuario = "admin@email.com",
 				Senha = "admin123"
 			},
 			new User
 			{
+				Id = 2,
 				Usuario = "a",
 				Senha = "a"
 			}

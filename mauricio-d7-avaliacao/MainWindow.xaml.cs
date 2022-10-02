@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Linq;
 using System.Windows;
 using atividade_D7.Data;
 
@@ -16,33 +17,46 @@ namespace atividade_D7
         {
             this.context = context;
             InitializeComponent();
-            //GetUsers();
             Login.DataContext = tryUser;
         }
 
 
-        //private void GetUsers() //carregar os dados para o datagrid (q vai mostrar na tabela)
-        //{
-        //    UserDataGrid.ItemsSource = context.Users.ToList(); //pelo context conegue acessar o banco
-        //}
-
         private void Logar(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Clicou");
-            //seleciona
-            //var usuarios = context.Users.ToList();
-            //foreach (User usuario in usuarios) {
-            //    //compara o usuário e senha do banco
-            //    if (tryUser.Usuario == usuario.Usuario) //and senha = senha
-            //    {
-            //        MessageBox.Show("Usuário autenticado!");
-            //    }
-            //    //caso dê ruim
-            //    else
-            //    {
-            //        MessageBox.Show("Credenciais inválidas!");
-            //    }
-            //}
+            if (validateEmail(tryUser.Usuario))
+            {
+                var usuarios = context.Users.ToList();
+                foreach (User usuario in usuarios)
+                {
+                    if (tryUser.Usuario == usuario.Usuario && tryUser.Senha == usuario.Senha)
+                    {
+                        MessageBox.Show("Usuário autenticado!");
+                        return;
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Email Inválido!");
+                return;
+            }
+            MessageBox.Show("Credenciais inválidas!");
+        }
+        static bool validateEmail(string email)
+        {
+            if (email == null)
+            {
+                return false;
+            }
+            if (new EmailAddressAttribute().IsValid(email))
+            {
+                return true;
+            }
+            else
+            {
+
+                return false;
+            }
         }
     }
 }
